@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <video class="background-video" autoplay loop muted>
+        <source src="Nbgv.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+        </div>
+        <h1>Wallpaper Website</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="intro-video-container">
+        <video class="intro-video" autoplay muted>
+            <source src="intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="intro-title">Anime Wallpapers</div>
+    </div>
+
+    <div class="content-wrapper">
+        <header>
+            <input type="text" id="searchInput" placeholder="Search wallpapers...">
+        </header>
+        <main>
+            <section class="wallpapers">
+                <!-- Wallpapers will be dynamically added here -->
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
